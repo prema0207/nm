@@ -3,10 +3,10 @@ import pandas as pd
 import time
 import random
 
-# Load data
+# Load data (from CSV instead of Excel)
 @st.cache_data
 def load_data():
-    return pd.read_excel("navigation_data.xlsx")
+    return pd.read_csv("navigation_data.csv")
 
 df = load_data()
 
@@ -84,6 +84,3 @@ Developed for use cases in:
 - Industrial automation  
 - Healthcare robotics  
 - Smart surveillance
-
-For more, see project phases detailing [Problem Definition](#), [Innovation](#), and [Implementation](#).
-""")
