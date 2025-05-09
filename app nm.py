@@ -83,4 +83,4 @@ Developed for use cases in:
 - Self-driving vehicles  
 - Industrial automation  
 - Healthcare robotics  
-- Smart surveillance
+- Smart surveillance""")
